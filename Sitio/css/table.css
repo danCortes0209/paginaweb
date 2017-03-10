@@ -1,0 +1,40 @@
+/* line 1, table.less */
+.tableDiv {
+  z-index: 0;
+  width: 70%;
+  position: relative;
+  background: #ffffff;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  border: 1px solid #252129;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+/* line 14, table.less */
+.tableDiv .dataTable {
+  border: 1px solid #909090;
+  width: 100%;
+}
+/* line 18, table.less */
+.tableDiv .dataTable tr {
+  border: 1px solid #909090;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 1px 1px 1px 1px;
+}
+/* line 24, table.less */
+.tableDiv .dataTable .tableHeader {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding: 1px 1px 1px 1px;
+}
+@media screen and (max-width: 835px) {
+  /* line 31, table.less */
+  .tableDiv {
+    width: 95%;
+    border: 1px solid #FFFFFF;
+  }
+}

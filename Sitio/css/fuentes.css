@@ -1,0 +1,27 @@
+/* line 1, fuentes.less */
+.insert h1 {
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 15px;
+  width: 80%;
+  text-align: center;
+}
+/* line 8, fuentes.less */
+label {
+  color: #000000;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+/* line 15, fuentes.less */
+.tableDiv h1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 835px) {
+  /* line 22, fuentes.less */
+  .insert h1 {
+    width: 100%;
+  }
+}
